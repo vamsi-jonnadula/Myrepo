@@ -1,5 +1,8 @@
-from pyspark.sql import SparkSession # Merged from repo1 repo2
-from pyspark.sql import SparkSession 
+<<<<<<< HEAD
+from pyspark.sql import SparkSession #repo1
+=======
+from pyspark.sql import SparkSession #from Repo2
+>>>>>>> 2de0299 (Modified from repo2)
 
 def init_spark():
   spark = SparkSession.builder.appName("HelloWorld").getOrCreate()
